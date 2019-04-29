@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/tapperm/day73/issues"
   },
-  "homepage": "https://github.com/tapperm/day73#readme"
+  "homepage": "https://github.com/tapperm/day73#readme",
+  "dependencies": {
+    "google-spreadsheet-to-json": "^1.0.0"
+  }
 }

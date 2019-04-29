@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/tapperm/day73#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "google-spreadsheet-to-json": "^1.0.0"
   }
 }

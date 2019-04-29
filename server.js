@@ -7,6 +7,8 @@ const port = 1214
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
+app.use(express.static('public'))
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 var gsjson = require('google-spreadsheet-to-json');
